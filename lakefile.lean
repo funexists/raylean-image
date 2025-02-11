@@ -4,6 +4,8 @@ open Lake DSL
 require batteries from git "https://github.com/leanprover-community/batteries.git" @ "v4.14.0"
 require mathlib from git "https://github.com/leanprover-community/mathlib4.git" @ "v4.14.0"
 
+require "lens-demo" from git "https://github.com/funexists/lens-demo.git" @ "19c9d9ceed57744a5afd4540593cb943ae407701"
+
 require raylean from git "https://github.com/funexists/raylean.git" @ "3a60f54222e06767daa93e50a8fcbc68975eee4c" with
   NameMap.empty
     |>.insert `bundle "off"
